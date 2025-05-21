@@ -1,2 +1,8 @@
 .venv
 data
+.env
+acc_curve.png
+best_regnet.pth
+confusion_matrix.png
+loss_curve.png
+prediction_gallery.png

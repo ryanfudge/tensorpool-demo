@@ -1,0 +1,12 @@
+commands = [
+  "pip install torch torchvision scikit-learn matplotlib",
+  "python train.py --epochs 20 --batch-size 64"
+]
+optimization_priority = "PRICE"
+gpu = "T4"
+ignore = [
+    ".git",
+    ".venv",
+    "data",
+    "best_regnet.pth"
+]
